@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bars" />
+
+    <TextView
+        android:id="@+id/textView40"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="37dp"
+        android:text="Start your health and wellness journey today"
+        android:textColor="@color/black"
+        android:textSize="17sp"
+        app:layout_constraintStart_toEndOf="@+id/imageView8"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView41"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="20dp"
+        android:text="How can we help you?"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView8" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout13"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="6dp"
+        android:background="@drawable/disease_background"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView41">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/doctor_icon" />
+
+        <TextView
+            android:layout_width="220sp"
+            android:layout_height="30sp"
+            android:layout_marginLeft="65dp"
+            android:text="Talk to your doctor now!"
+            android:textColor="@color/blue"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="200sp"
+            android:layout_height="40sp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="30dp"
+            android:text="Consult with a professional doctor via chat "
+            android:textColor="@color/black" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout10"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/diseasesbg"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout13">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/disease_icon" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="55dp"
+            android:layout_marginTop="10dp"
+            android:text="Diseases"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout14"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/consultationbg"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout10">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/consultation_icon" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="55dp"
+            android:layout_marginTop="10dp"
+            android:text="Consultation"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout8"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/medicinebg"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout14">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/medicine_icon" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="55dp"
+            android:layout_marginTop="10dp"
+            android:text="Medicine"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout9"
+        android:layout_width="100dp"
+        android:layout_height="65dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/gray_buttons"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout8">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/emergency_icon" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:text="Emergency"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            tools:layout_editor_absoluteX="42dp"
+            tools:layout_editor_absoluteY="454dp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout11"
+        android:layout_width="100dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="26dp"
+        android:background="@drawable/gray_buttons"
+        app:layout_constraintEnd_toStartOf="@+id/relativeLayout12"
+        app:layout_constraintStart_toEndOf="@+id/relativeLayout9"
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout8">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/hospital_icon" />
+
+        <TextView
+
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:text="Hospital"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            tools:layout_editor_absoluteX="42dp"
+            tools:layout_editor_absoluteY="454dp" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout12"
+        android:layout_width="100dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/gray_buttons"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/relativeLayout11"
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout8">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/doctorlist_icon" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:text="Doctor"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            tools:layout_editor_absoluteX="42dp"
+            tools:layout_editor_absoluteY="454dp" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textView42"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="59dp"
+        android:layout_marginTop="21dp"
+        android:text="Your Health is Our Priority"
+        android:textColor="#2DA883"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout9" />
+
+    <TextView
+        android:id="@+id/textView43"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="59dp"
+        android:layout_marginTop="16dp"
+        android:text="Who we are?"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView42" />
+
+    <TextView
+        android:id="@+id/textView44"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="63dp"
+        android:layout_marginTop="8dp"
+        android:text="We are a dedicated team of healthcare professionals, passionate about ensuringthat you and your loved ones receive the highest quality of care, information, and support in your health journey."
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView43" />
+</androidx.constraintlayout.widget.ConstraintLayout>
